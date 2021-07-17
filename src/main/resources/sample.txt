@@ -1,0 +1,5 @@
+a + b = 7 ;
+cat+dog=5.25;
+if (dog == 4){
+	int x = 4;
+}
