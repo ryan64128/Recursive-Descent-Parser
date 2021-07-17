@@ -11,7 +11,7 @@ class ParserTest {
 	
 	@Test
 	void testProgramMethod() {
-		parser = new Parser("cat = cat");
+		parser = new Parser("cat=(dog+bat)*cat");
 		parser.program();
 	}
 
