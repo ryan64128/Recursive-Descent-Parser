@@ -13,6 +13,8 @@ class ParserTest {
 	void testProgramMethod() {
 		parser = new Parser("cat=(dog+bat)*cat");
 		parser.program();
+		System.out.println("\n\n");
+		parser.printAbstractSyntaxTree();
 	}
 
 }
